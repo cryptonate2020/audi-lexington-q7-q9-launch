@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 287.21 104">
+  <g fill="none" stroke="#111" stroke-width="10.38">
+    <mask id="f0" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-8" y="-8" width="304" height="120">
+      <rect x="-8" y="-8" width="304" height="120" fill="#fff"/>
+      <g clip-path="url(#ft)"><circle cx="111.07" cy="50" r="44.81" fill="none" stroke="#000" stroke-width="11.18"/></g>
+    </mask>
+    <mask id="f1" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-8" y="-8" width="304" height="120">
+      <rect x="-8" y="-8" width="304" height="120" fill="#fff"/>
+      <g clip-path="url(#fb)"><circle cx="50" cy="50" r="44.81" fill="none" stroke="#000" stroke-width="11.18"/></g>
+      <g clip-path="url(#ft)"><circle cx="172.14" cy="50" r="44.81" fill="none" stroke="#000" stroke-width="11.18"/></g>
+    </mask>
+    <mask id="f2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-8" y="-8" width="304" height="120">
+      <rect x="-8" y="-8" width="304" height="120" fill="#fff"/>
+      <g clip-path="url(#fb)"><circle cx="111.07" cy="50" r="44.81" fill="none" stroke="#000" stroke-width="11.18"/></g>
+      <g clip-path="url(#ft)"><circle cx="233.21" cy="50" r="44.81" fill="none" stroke="#000" stroke-width="11.18"/></g>
+    </mask>
+    <mask id="f3" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-8" y="-8" width="304" height="120">
+      <rect x="-8" y="-8" width="304" height="120" fill="#fff"/>
+      <g clip-path="url(#fb)"><circle cx="172.14" cy="50" r="44.81" fill="none" stroke="#000" stroke-width="11.18"/></g>
+    </mask>
+    <clipPath id="ft"><rect x="-8" y="-8" width="304" height="58"/></clipPath>
+    <clipPath id="fb"><rect x="-8" y="50" width="304" height="54"/></clipPath>
+    <circle cx="50" cy="50" r="44.81" mask="url(#f0)"/>
+    <circle cx="111.07" cy="50" r="44.81" mask="url(#f1)"/>
+    <circle cx="172.14" cy="50" r="44.81" mask="url(#f2)"/>
+    <circle cx="233.21" cy="50" r="44.81" mask="url(#f3)"/>
+  </g>
+</svg>
