@@ -205,27 +205,29 @@ button:focus-visible {
   top: 0;
   left: 0;
   width: 100%;
-  height: min(78%, 62vw, 760px);
+  height: min(92%, 72vw, 860px);
   object-fit: cover;
-  object-position: 46% 42%;
-  -webkit-mask-image: linear-gradient(180deg, #000 58%, transparent 100%);
-  mask-image: linear-gradient(180deg, #000 58%, transparent 100%);
+  object-position: 70% 40%;
+  -webkit-mask-image: linear-gradient(180deg, #000 93%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 93%, transparent 100%);
 }
 
 .hero-shade {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(8, 8, 10, 0.55) 0%, rgba(8, 8, 10, 0.22) 48%, rgba(8, 8, 10, 0.12) 100%),
-    linear-gradient(180deg, rgba(8, 8, 10, 0.2) 0%, rgba(8, 8, 10, 0.08) 22%, rgba(8, 8, 10, 0.72) 58%, #0e0e0f 78%);
+    linear-gradient(90deg, rgba(8, 8, 10, 0.72) 0%, rgba(8, 8, 10, 0.42) 32%, rgba(8, 8, 10, 0.1) 58%, rgba(8, 8, 10, 0.02) 100%),
+    linear-gradient(180deg, rgba(8, 8, 10, 0.16) 0%, rgba(8, 8, 10, 0.04) 30%, rgba(8, 8, 10, 0.22) 68%, rgba(8, 8, 10, 0.4) 100%);
 }
 
 .hero-copy {
   position: relative;
   z-index: 1;
-  width: min(100%, 920px);
+  width: min(100%, 760px);
   padding: clamp(36px, 8vh, 88px) clamp(16px, 4vw, 56px) clamp(32px, 6vh, 64px);
-  background: linear-gradient(180deg, rgba(14, 14, 15, 0.05) 0%, rgba(14, 14, 15, 0.9) 16%, #0e0e0f 34%);
+  background:
+    linear-gradient(90deg, rgba(14, 14, 15, 0.35) 0%, rgba(14, 14, 15, 0) 100%),
+    linear-gradient(180deg, rgba(14, 14, 15, 0) 0%, rgba(14, 14, 15, 0.82) 24%, #0e0e0f 58%);
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45);
 }
 
@@ -679,21 +681,24 @@ h2 {
   .hero {
     min-height: 0;
     display: block;
-    padding-top: 34vw;
+    padding-top: 60vw;
   }
 
   .hero-photo {
-    height: 50vw;
-    object-position: 48% 44%;
+    height: 64vw;
+    object-position: 76% 42%;
+    -webkit-mask-image: linear-gradient(180deg, #000 88%, transparent 100%);
+    mask-image: linear-gradient(180deg, #000 88%, transparent 100%);
   }
 
   .hero-shade {
     background:
-      linear-gradient(180deg, rgba(8, 8, 10, 0.2) 0%, rgba(8, 8, 10, 0.1) 14%, rgba(8, 8, 10, 0.82) 36%, #0e0e0f 52%);
+      linear-gradient(180deg, rgba(8, 8, 10, 0.1) 0%, rgba(8, 8, 10, 0.05) 42%, rgba(8, 8, 10, 0.72) 58%, #0e0e0f 70%);
   }
 
   .hero-copy {
-    margin-top: -12vw;
+    margin-top: 0;
+    width: 100%;
   }
 }
 
