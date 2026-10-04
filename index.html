@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preload" as="image" href="assets/audi-q9.jpg">
+    <link rel="preload" as="image" href="assets/lexington-skyline.jpg">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -91,6 +91,14 @@
 
     <main>
       <section class="hero" aria-labelledby="evening-title">
+        <img
+          class="hero-photo"
+          src="assets/lexington-skyline.jpg"
+          width="3000"
+          height="1060"
+          alt="Downtown Lexington, Kentucky skyline, photographed from the convention center."
+          fetchpriority="high">
+        <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-copy">
           <p class="kicker on-dark">Friday, October 30, 2026</p>
           <p class="evening">An evening</p>
@@ -107,19 +115,6 @@
             <a class="text-link" href="tel:+18592522834">(859) 252-2834</a>
           </p>
         </div>
-
-        <figure class="still">
-          <img
-            src="assets/audi-q9.jpg"
-            width="1440"
-            height="959"
-            alt="Audi Q9 in Waitomo blue metallic on a New York street at dusk. Official Audi photograph of a U.S.-specification model."
-            fetchpriority="high">
-          <figcaption>
-            <span>The all-new Q9</span>
-            <span>2027</span>
-          </figcaption>
-        </figure>
       </section>
 
       <section class="facts" id="details" aria-label="Date, time, place, and RSVP">
@@ -166,18 +161,32 @@
           </dl>
           <p class="prose">The all-new Q9 is Audi’s first large full-size SUV, and the top of the lineup.</p>
         </div>
-        <figure class="plate">
-          <img
-            src="assets/audi-q7.jpg"
-            width="1440"
-            height="1920"
-            alt="Audi Q7 in Alopias blue metallic, shown in a dark studio with a light signature along the body. Official Audi photograph."
-            loading="lazy">
-          <figcaption>
-            <span>The new Q7</span>
-            <span>2026</span>
-          </figcaption>
-        </figure>
+        <div class="plates">
+          <figure class="plate plate-q9">
+            <img
+              src="assets/audi-q9.jpg"
+              width="1440"
+              height="1081"
+              alt="Audi Q9 in Waitomo blue metallic, three-quarter front view. Official Audi photograph."
+              loading="lazy">
+            <figcaption>
+              <span>The all-new Q9</span>
+              <span>2027</span>
+            </figcaption>
+          </figure>
+          <figure class="plate plate-q7">
+            <img
+              src="assets/audi-q7.jpg"
+              width="1440"
+              height="1920"
+              alt="Audi Q7 in Alopias blue metallic, shown in a dark studio with a light signature along the body. Official Audi photograph."
+              loading="lazy">
+            <figcaption>
+              <span>The new Q7</span>
+              <span>2026</span>
+            </figcaption>
+          </figure>
+        </div>
       </section>
 
       <section class="rsvp" id="rsvp" aria-labelledby="rsvp-heading">
@@ -246,7 +255,10 @@
       </div>
       <div>
         <p><a class="text-link" href="https://www.audilexington.com/en/" target="_blank" rel="noopener noreferrer">audilexington.com</a></p>
-        <p class="credit">Photographs © AUDI AG</p>
+      </div>
+      <div class="credits">
+        <p class="credit">Downtown Lexington, Kentucky skyline, from the convention center. File: Lexington skyline.jpg, by Runner1928, <a class="text-link" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a class="text-link" href="https://commons.wikimedia.org/wiki/File:Lexington_skyline.jpg">https://commons.wikimedia.org/wiki/File:Lexington_skyline.jpg</a>.</p>
+        <p class="credit">Vehicle photographs © AUDI AG</p>
       </div>
     </footer>
 
